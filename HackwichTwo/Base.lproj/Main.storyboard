@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCT-fw-BIx">
-                                <rect key="frame" x="127" y="430" width="161" height="94"/>
+                                <rect key="frame" x="127" y="66" width="161" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Press Me"/>
@@ -27,12 +27,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtP-Bb-wEn">
-                                <rect key="frame" x="122" y="552" width="171" height="90"/>
+                                <rect key="frame" x="122" y="636" width="171" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
                                 <connections>
                                     <action selector="SecondButtonPressed:" destination="a5m-IO-IrF" eventType="touchUpInside" id="ByN-s1-ad9"/>
+                                    <segue destination="4nj-sD-dzW" kind="show" id="pp6-94-OCa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,6 +44,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahA-el-H7C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-73.913043478260875" y="61.607142857142854"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dK1-16-5gY">
+            <objects>
+                <viewController id="4nj-sD-dzW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dCG-Ht-hFy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PSG-Nj-UCg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="csG-LD-gB6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KiO-BG-GCd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583" y="65"/>
         </scene>
     </scenes>
     <resources>
