@@ -19,13 +19,17 @@ class SecondViewController: UIViewController {
     
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         
+    self.view.backgroundColor = UIColor.blue
+    
+        var text: String.firstLabel(<#T##Any#>)
+        var textColor: UIColor.purple
         
-        
-        
-        
+    
     }
     
     
+    @IBAction func firstLabel(_ sender: Any) {
+    }
     
     
     
